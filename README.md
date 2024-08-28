@@ -33,11 +33,23 @@
    [![My Skills](https://skillicons.dev/icons?i=git,github,vscode,gcp)](https://skillicons.dev)
 
 <p align="center">
-
+  
 - **Let's Contact!**:
 
 <li>
-<a href="https://linkedin.com/in/0xabdulkhalid" target="_blank">
-<img src="https://skillicons.dev/icons?i=git" alt=linkedin style="margin-bottom: 5px;"/>
+<a href="https://www.instagram.com/scbbrayan/" target="_blank">
+<img src="https://skillicons.dev/icons?i=instagram" alt=linkedin style="margin-bottom: 5px;"/>
+</a>
+</li>
+
+<li>
+<a href="mailto:brayanbeltransak@gmail.com" target="_blank">
+<img src="https://skillicons.dev/icons?i=gmail" alt=linkedin style="margin-bottom: 5px;"/>
+</a>
+</li>
+
+<li>
+<a href="https://www.linkedin.com/in/brayan-beltran-57980b2a0/" target="_blank">
+<img src="https://skillicons.dev/icons?i=linkedin" alt=linkedin style="margin-bottom: 5px;"/>
 </a>
 </li>
