@@ -1,0 +1,91 @@
+body {
+
+    background-color: #443986;
+    /* Establece el color de fondo del documento*/
+}
+
+.container {
+    background-color: #fff;
+    /* Establece el color de fondo del contenedor*/
+    max-width: 400px;
+    /* Establece el ancho del contenedor*/
+    max-height: 700px;
+    /* Establece el alto del contenedor*/
+    margin: 200px auto;
+    /* Establece la margen exterior del contenedor*/
+    padding: 20px;
+    /* Establece el espacio entre el contenido y el borde del elemento*/
+    border-radius: 8px;
+    /* Agrega el radio a las esquinas del contenedor*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Agrega sombra al contenedor*/
+}
+
+#titulo {
+    text-align: center;
+    /* centra el titulo*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* cambia el tipo de letra*/
+    color: rgb(51, 63, 63);
+    /* Asigna color al titulo*/
+
+}
+
+.grupo {
+    margin-bottom: 20px;
+    /* Establece la margin inferior a cada grupo de formulario*/
+}
+
+.grupo label {
+    display: block;
+    /*Hace que las etiquetas de los campos de formulario sean bloques para que aparezcan en líneas separadas*/
+    margin-bottom: 5px;
+    /* Agrega un espacio inferior a cada etiqueta */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Agrega un tipo de letra */
+}
+
+.grupo input[type="text"] {
+    /* editar el texto nombre de usuario */
+    width: 100%;
+    /* ajustar el ancho al 100 por ciento */
+    padding: 8px;
+    /* colocar padding de 8 px */
+    border-radius: 4px;
+    /* Agregaar un borde a las esquinas */
+    border: 1px solid #ccc;
+    /* colocar un borde */
+
+}
+
+.grupo input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    /* Ajustar al ancho del container */
+    padding: 10px;
+    /* Agrega un espacio entre el contenido y el borde */
+    background-color: #007bff;
+    /* Asignar color azul */
+    color: #fff;
+    /* color letra en blanco */
+    border: none;
+    /* quitar bordes */
+    border-radius: 4px;
+    /* Agrega borde a las esquinas */
+    cursor: pointer;
+    /*colocar un puntero cuando el mouse este encima */
+    transition: background-color 0.3s ease;
+    /* Agrega una transicion */
+}
+
+button:hover {
+    background-color: #3182a8ff;
+    /* Agrega un cambio de color al botton cuando el puntero este sobre el */
+}

@@ -1,27 +1,28 @@
-<?php
-
-$apellido = 'Mendez';
-$nombre = "Freddy $apellido";
-$nombre2 = 'Mendez $apellido';
-$edad = 40;
-$peso = 90.5;
-$altura = 1.72;
-$esColombiano = FALSE;
-
-echo $nombre;
-echo "<br>";
-echo $nombre2;
-
-for ($i = 0; $i < 10; $i++) {
-    if ($i%2==0) {
-        echo "<h2> $i Numero Par </h2>";
-    } else {
-        echo "<h2> $i Numero No es Par </h2>";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hola Mundo</h1>
+    <?php
+    
+    for ($i = 0; $i < 10; $i++) {
+        echo ' $i ';
+        echo " $i ";
+        echo "<br />";
     }
-}
+    
+    $datos = array("uno"=>"Juan","dos"=>"Pedro","tres"=>"Luis");
 
-$elemtos = array("escribir"=>"Lapiz","registrar"=>"Cuaderno","lineas"=>25, "peso"=>10.5);
+    foreach ($datos as $key => $valor) {
+        #echo $key . "=>" . $valor . "<br />";
+        echo $datos[$key]."<br />";
+    }
 
-foreach($elemtos as $key => $val) {
-    echo "<h4>[$key] = $val </h4>";
-}
+
+    ?>
+</body>
+</html>

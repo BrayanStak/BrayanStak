@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADSO</title>
+</head>
+
+<body>
+
+    <!--  encabezados   -->
+
+    <h1> ADSO </h1>
+    <h2>ADSO</h2>
+    <h3>ADSO</h3>
+    <h4>ADSO</h4>
+    <h5>ADSO</h5>
+    <h6>ADSO</h6>
+
+    <!--  Párrafos   -->
+
+    <p> El SENA ofrece la mejor formación técnica y tecnológica de Colombia.
+        A través de distintas carreras y cursos complementarios, <br> podrá desempeñar
+        oficios y ocupaciones que requieren los sectores productivos del país. <br>
+
+        El SENA cuenta con una plataforma virtual llamada, SOFIAPlus:es la abreviación
+        de Sistema Optimizado para la Formación Integral del Aprendizaje Activo; <br>permite
+        a cualquier persona acceder a un programa de formación complementaria y titulada.
+    </p>
+
+    <!--  listas   -->
+    <h2> lista Ordenadas </h2>
+    <ol>
+        <li> elemento 1</li>
+        <li> elemento 2</li>
+        <li> elemento 3</li>
+    </ol>
+    <br>
+    <h2> lista No Ordenadas </h2>
+    <ul>
+        <li> elemento a</li>
+        <li> elemento b</li>
+        <li> elemento c</li>
+
+
+    </ul>
+
+    <!--  enlaces   -->
+
+    <h2> Enlaces</h2>
+
+    <p> Visita la página del sena para inscribirte a un progrma Virtual:
+        <a href="https://www.sena.edu.co/"> Click Aquí </a>
+    </p>
+
+
+    <!--  imagen   -->
+
+
+    <h2> Imagen Institucional</h2>
+    <img src="imagenes/sena.png" alt="logo institucional">
+
+
+
+    <!-- formulario -->
+
+    <form>
+
+        <div>
+            <label for="nombre"> Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre">
+        </div>
+        <div>
+            <label for="nombre"> Password: </label>
+            <input type="password" id="password" name="password" placeholder="Ingrese su contraseña">
+
+        </div>
+        <div>
+            <button type="submit"> Enviar</button>
+        </div>
+
+
+
+    </form>
+
+</body>
+
+</html>
